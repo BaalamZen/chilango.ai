@@ -98,6 +98,16 @@
       opacity: 0.8;
     }
 
+    .credit-text a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+      transition: color 0.2s ease;
+    }
+    .credit-text a:hover {
+      color: var(--accent);
+    }
+
     .baalam-logo {
       width: clamp(90px, 22vw, 130px);
       height: auto;
@@ -128,7 +138,7 @@
       <span class="dot"></span><span class="dot"></span><span class="dot"></span>
     </p>
     <div class="credit">
-      <span class="credit-text">Un proyecto de Baalam</span>
+      <span class="credit-text">Un proyecto de <a href="https://www.baalamllc.com/" target="_blank" rel="noopener">Baalam</a></span>
       <img class="baalam-logo" src="baalam-logo.png" alt="Baalam LLC" onerror="this.remove()" />
     </div>
   </main>
